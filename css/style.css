@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(24, 212, 206);
+    border: solid 1px rgb(15, 226, 215);
+    margin: 10px;
+    padding: 10px;
+}
+.colorChange {
+    color: #ffe100;
+    font-size: 75px;
+
+}

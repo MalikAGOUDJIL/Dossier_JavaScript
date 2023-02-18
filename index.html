@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="js/app.js" defer></script> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cours JS</title>
+</head>
+
+<body>
+
+    <button onclick="hello()">cliquez ici</button>
+    <div id="switch"></div>
+
+    fonction démarrer le compte a rebours
+
+    <button onclick="wait=setTimeout(bonjour,3000)">Start</button>
+
+    fonction arrêter le compte a rebours
+
+    <button onclick="clearTimeout(wait)">stop</button>
+
+    fonction setInterval
+
+    <p id="heure"></p>
+
+    <button onclick="clearInterval(time)">Stop</button>
+
+    <!-- add eventListener-->
+
+
+    <button onclick="alert('salut')">salut</button>
+
+    <script>
+        //portee 
+        // variable globale 
+        let name = "Malik global"
+        let globale = "globale"
+
+        function locale() {
+            // variable locale
+            let loc = "locale";
+            console.log(loc);
+            console.log(name);
+
+        }
+
+        document.write(globale);
+
+        //console.log (loc); // ne fonctionnera pas car elle elle est déclarée en locale. 
+
+        locale();
+
+    </script>
+
+    <p id="arg"></p>
+    <p id="un"></p>
+    <div class="deux">
+        <button name="trois"></button>
+
+    </div>
+
+    <div id="b1">
+        <p>bonjour</p>
+
+        <pre>
+            <script>
+                document.write("HI")
+                document.write("by Malik")
+               
+
+                document.writeln("HI")
+                document.writeln("by Malik")
+            </script>
+        </pre>
+
+    </div>
+
+<h1 id="myTitle">J'apprend le dom</h1>
+<p>J'utilise la methode setAttribut()</p>
+<button onclick="changeText()">H1 custom</button>
+
+
+<p id="tab"></p>
+
+<div id="ajax">
+    <h2>ajax va changer le texte</h2>
+    <button type="button" onclick="loadDoc(> Changer</button>
+ </div>
+
+ // code sécurité 
+<form methode="post"><input type="hidden" name="nonce"value="123456"></form>
+
+ 
+
+
+
+
+    // <!-- JS -->
+    // <!--    -->
+    <script src="js/app.js"></script>
+    <script src="js/switch.js"></script>
+    <script src="js/conditionexojs.js"></script>
+    <script src="js/iterative.js"></script>
+    <script src="js/setTimeout.js"></script>
+    <script src="js/setInterval.js"></script>
+    <!-- <script src="js/test.js"></script> -->
+    <!-- <script src="js/"></script> -->
+    <script src="js/objet.js"></script>
+    <script src="js/setattribut.js"></script>
+    <script src="js/tab.js"></script>
+
+</body>
+
+</html>
